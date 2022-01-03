@@ -1,0 +1,41 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 540px;
+  margin: auto;
+  padding-block-start: 40px;
+  padding-block-end: 80px;
+}
+
+.form .title{
+  margin: 0;
+}
+
+.form p{
+  margin-block: 1rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.form label{
+  margin-block-end: 0.5rem;
+  font: var(--label);
+}
+
+.form input, .form textarea{
+  margin-block-end: 1rem;
+  padding-block: 0.75rem;
+  padding-inline: 1rem;
+  border: 0.0625rem solid var(--gray);
+  border-radius: 0.5rem;
+  font: var(--body1);
+}
+
+@media screen and (min-width: 768px) {
+  .form .title{
+    align-self: stretch;
+    text-align: center;
+  }
+
+  
+}

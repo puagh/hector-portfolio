@@ -1,0 +1,37 @@
+.project{
+  padding-block: 40px;
+  margin-block-end: 40px;
+}
+
+.project-image img{
+  max-inline-size: 100%;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width:768px) {
+  .project{
+    padding-block: 80px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  section.testimony div:nth-child(3) {
+    flex-direction: row-reverse;
+  }
+  
+  .project-image{
+    order: 2;
+    flex: 1;
+    text-align: center;
+  }
+
+  .project-description{
+    flex: 1;
+  }
+}

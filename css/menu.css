@@ -1,0 +1,26 @@
+.menu{
+  display: none;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  column-gap: 2.5rem;
+}
+
+.menu ul a{
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu li a.active{
+  color: var(--purple);
+}
+
+@media screen and (min-width:768px) {
+  .menu{
+    display: inline;
+  }
+}

@@ -1,0 +1,12 @@
+.header{
+  position: sticky;
+  inset-block-start: 0;
+  backdrop-filter: blur(0.5rem);
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+}
