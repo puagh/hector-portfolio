@@ -17,7 +17,7 @@
   outline: 10px solid transparent;
   /* border-image: linear-gradient(170deg, rgba(255,255,255,0.5) 7%, rgba(255,255,255,0) 10%) 1 round; */
   margin-block-start: 40px;
-  margin-block-end: 80px;
+  margin-block-end: 40px;
 }
 
 .card-testimony img{
@@ -41,6 +41,7 @@
 @media screen and (min-width:768px) {
   .card-testimony{
     padding: 80px;
+    margin-block-end: 80px;
   }
 
   .card-testimony p{
